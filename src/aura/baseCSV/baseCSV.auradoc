@@ -2,7 +2,7 @@
 	<aura:description>
 		baseCSV is an extensible component that provides the PapaParse CSV parsing library for use in aura components.
 	</aura:description>
-	<aura:example name="FileInput" ref="inputCSV" label="File Input">
-		inputCSV uses baseCSV to parse a local file.
+	<aura:example name="FileInput" ref="lightningcsv:inputCSV" label="File Input">
+		inputCSV uses baseCSV to parse a local file. 
 	</aura:example>
 </aura:documentation>

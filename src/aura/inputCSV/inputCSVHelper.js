@@ -7,7 +7,7 @@
                   'Selected file size: ' + file.size);
             return;
         }
-        this.parse(file);
+        this.parse(component,file);
     },
     MAX_FILE_SIZE: 4 500 000
 })

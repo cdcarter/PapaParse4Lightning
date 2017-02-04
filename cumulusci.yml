@@ -1,0 +1,5 @@
+project:
+    name: PapaParese4Lightning
+    package:
+        name: PapaParse
+        namespace: lightningcsv

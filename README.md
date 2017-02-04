@@ -2,8 +2,7 @@
 Matthew Holt's excellent CSV Parsing lib PapaParse goes Lightning!
 
 ## Blog
-
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/XOCCj"><a href="//imgur.com/XOCCj"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src="http://i.imgur.com/oG4Sc16.gif" width="70%"/>
 
 ### The Apex Pain
 
@@ -49,7 +48,7 @@ But just parsing a string of CSV isn't that interesting, my use case was for loa
 
 The testapp turned out to be all XML markup, and no code! 
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="FLhoGGs"><a href="//imgur.com/FLhoGGs"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src="http://i.imgur.com/FLhoGGs.gif" width="70%"/>
 
 ```
 <aura:application extends="force:slds">

@@ -1,0 +1,13 @@
+<aura:component >
+    <aura:attribute name="row" type="Object" required="true" access="public"/>
+    <aura:attribute name="colIdx" type="Integer" required="true" access="public"/>
+
+    <aura:attribute name="data" type="Object" required="true" access="private"/>
+
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    
+    <td data-label="">
+    	<div class="slds-truncate" title="{!v.data}">{!v.data}</div>
+	</td>
+
+</aura:component>

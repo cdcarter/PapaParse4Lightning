@@ -55,8 +55,7 @@ The testapp turned out to be all XML markup, and no code!
     <aura:attribute name="rows" type="object[]" default="[]"/>
     <aura:attribute name="headers" type="String[]" default="[]"/>
     
-    <aura:handler name="change" value="{!v.rows}" action="{!c.changeRows}"/>
-    <c:localFile data="{!v.rows}" headers="{!v.headers}"/>
+    <c:inputCSV rows="{!v.rows}" headers="{!v.headers}"/>
     
     <aura:if isTrue="{!not(empty(v.rows))}">
         <lightning:card>
@@ -77,8 +76,8 @@ The testapp turned out to be all XML markup, and no code!
                 <aura:iteration items="{!v.rows}" var="row">
                     <tr>
                     <aura:iteration items="{!v.headers}" var="head" indexVar="i">
-                        <c:tableCell row="{!row}" colIdx="{!i}"/>
-                        </aura:iteration>
+                        <c:tableCell row="{!row}" colIdx="{!i}"/> <!-- reaches into array -->
+                    </aura:iteration>
                     </tr>
                 </aura:iteration>
             </tbody>

@@ -1,1 +1,2 @@
-<aura:component ></aura:component>
+<aura:component extends="lightningcsv.baseCSV">
+</aura:component>

@@ -1,1 +1,6 @@
-<aura:component ></aura:component>
+<aura:component extensible="true">
+    <aura:attribute name="rows" type="Object[]" access="public" description="The data rows from the parser"/>
+    <aura:attribute name="headers" type="String[]" access="public" description="The header row from the parser"/>
+
+    <ltng:require scripts="{!$Resource.papaparse}"/>
+</aura:component>

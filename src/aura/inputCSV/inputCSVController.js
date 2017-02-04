@@ -1,4 +1,5 @@
 ({
-	myAction : function(component, event, helper) {
+	handleParseClick : function(component, event, helper) {
+		helper.parseFile(component);
 	}
 })

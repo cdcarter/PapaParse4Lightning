@@ -1,2 +1,10 @@
 <aura:component extends="lightningcsv.baseCSV">
+    <lightning:layout horizontalAlign="spread" verticalAlign="start" >
+        <lightning:layoutItem flexibility="auto" padding="around-small" size="6"  >
+            <input type="file" class="file" aura:id="file"/>
+		</lightning:layoutItem>
+        <lightning:layoutItem flexibility="auto" padding="around-small" size="6" >
+			<lightning:button variant="brand" label="Parse" onclick="{!c.handleParseClick}" />
+        </lightning:layoutItem>
+    </lightning:layout>
 </aura:component>
